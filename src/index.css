@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-red: #ef4444;
+  --color-brand-yellow: #eab308;
+  --color-brand-green: #22c55e;
+  --color-brand-blue: #3b82f6;
+}
+
+@layer base {
+  body {
+    background-color: #111827;
+    color: #f3f4f6;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+}
